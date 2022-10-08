@@ -1,0 +1,249 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-brand--1: #ffb545;
+  --color-brand--2: #00c46a;  
+  --color-dark--1: #2d3439;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: rgb(214, 222, 224);
+}
+body{
+  width: 100vw;
+}
+link[rel='shortcut icon']{
+  border-radius: 50px;
+}
+nav{
+  height: 100px;
+  width: 100vw;
+  background-color: var(--color-brand--1);
+  display: flex;
+  align-items: center; 
+  /* cursor: pointer; */
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  color: var(--color-dark--1);
+  font-size: 1.3rem;
+  padding: 10px;
+  margin-right: 10px;
+  list-style: none;
+}
+img{
+   margin: auto;
+   margin-left: 10px;
+   border-radius: 2rem;
+}
+.head-p{
+  margin-left: 10px;
+}
+.head{
+  padding: 10px;
+}
+.parent{
+  height: 500px;
+  width: 100vw;
+  background-color: var( --color-light--1);
+  display: flex;
+}
+#first, #second{
+  height: 100%;
+  width: 50vw;
+  background-color: var(--color-light--1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+#img-guy{
+  height: 300px;
+  width: 25vw;
+  margin-right: 0;
+  border: 2px solid silver;
+}
+.app{
+  margin-top: 20px;
+}
+#image, .btn-1{
+  display: block;
+  margin-left: auto;
+  /* margin-right: auto; */
+}
+h3,p{
+  padding: 10px;
+}
+
+span{
+  color: var(--color-brand--1);
+}
+button{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--color-brand--1);
+  margin-right: auto;
+  margin-left: 10px;
+}
+.main{
+  height: 200px;
+  line-height: 1.66rem;
+  
+}
+.main-sect{
+  background-color: var(--color-light--3);
+  width: 100vw;
+  height: 500px;
+  display: flex;
+
+}
+.port{
+  text-align: center;
+  background-color: var(--color-light--3)
+}
+.app,
+.league,
+.dev{
+  background-color: var(--color-light--2);
+  width: 60vw;
+  height: auto;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.footer{
+  background-color: var(--color-light--1);
+  height: auto;
+  width: 100vw;
+}
+input{
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+}
+input:focus{
+  border: 1px solid #fcaa30;
+
+}
+#img-guy:hover{
+  border: 2px solid cyan;
+}
+
+.newsLetter{
+  /* background-color: red; */
+  justify-content: center;
+}
+.footer{
+  display: flex;
+ justify-content: center;
+}
+.form-main,
+.newsLetter,
+.info{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  /* background-color: red; */
+  /* width: 100vw; */
+  padding: 20px;
+}
+input{
+  border: none;
+  outline: none;
+}
+.head{
+  text-align: center;
+}
+.btn{
+  width: 150px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-1{
+  width: 5.5rem;
+}
+.btn-1:hover{
+  background-color: var(--color-light--2);
+}
+.btn:hover{
+  background-color: var(--color-light--2);
+}
+button:hover{
+  background-color: var(--color-light--2);
+}
+.foot-btn:hover{
+  background-color: var(--color-light--2);
+}
+i[class='fa fa-twitter']{
+  color: cyan;   
+  border-radius: 50px;
+}
+i[class='fa fa-github']{
+  color: black;   
+  border-radius: 50px;
+}
+i[class='fa fa-linkedin']{
+  color: white;  
+  background-color: blue;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+}
+i[class='fa fa-facebook']{
+  color: blue;  
+  background-color: white;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+.clock{
+  /* width: 100vw;
+  height: 20px; */
+  background-color: var(--color-light--1);
+  text-align: center; 
+  font-weight: bold;  
+  display: flex;
+  justify-content: column;
+}
+.foot-btn{
+  width: 100px;
+  background-color: var(--color-brand--1);
+}
+.copyright{
+  margin: -18px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.clock{
+ display: grid;
+ place-items: right;
+
+}
+.fa{
+  color: blue
+}
+
+
+
+
+
