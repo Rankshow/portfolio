@@ -1,3 +1,5 @@
+/* importing font style */
+
 *{
   padding: 0;
   margin: 0;
@@ -99,6 +101,7 @@ button{
   background-color: var(--color-brand--1);
   margin-right: auto;
   margin-left: 10px;
+  border: none;
 }
 .main{
   height: 200px;
@@ -150,7 +153,6 @@ input:focus{
 }
 
 .newsLetter{
-  /* background-color: red; */
   justify-content: center;
 }
 .footer{
@@ -181,12 +183,15 @@ input{
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 .btn-1{
   width: 5.5rem;
+   border: none;
 }
 .btn-1:hover{
-  background-color: var(--color-light--2);
+  background-color: var(black);
+  color: #fff;;
 }
 .btn:hover{
   background-color: var(--color-light--2);
@@ -225,8 +230,6 @@ i[class='fa fa-facebook']{
 }
 
 .clock{
-  /* width: 100vw;
-  height: 20px; */
   background-color: var(--color-light--1);
   text-align: center; 
   font-weight: bold;  
@@ -260,6 +263,14 @@ i[class='fa fa-facebook']{
  .dev:hover{
   border: 2px solid orange;
  }
+ .main{
+  height: auto;
+  overflow: none;
+ }
+ .firstName, .surName,.mail{
+  /* padding: 5rem; */
+  padding-bottom: 10px;
+ }
 @media screen and (max-width: 1240px){
   .main-sect{
     display: grid;
@@ -278,7 +289,15 @@ i[class='fa fa-facebook']{
   .app{
     padding-bottom: 2em;
   }
-  
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-header{
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
 }
 
 
