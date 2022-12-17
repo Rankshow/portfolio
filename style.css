@@ -274,7 +274,7 @@ i[class='fa fa-facebook']{
   /* padding: 5rem; */
   padding-bottom: 10px;
  }
-@media (720px <= width <= 1600px){
+@media (360px <= width <= 1600px){
   .main-sect{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
