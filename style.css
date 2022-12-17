@@ -1,9 +1,10 @@
 /* importing font style */
-
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Parisienne&display=swap');
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Roboto',sans-serif; 
 }
 :root {
   --color-brand--1: #ffb545;
@@ -273,7 +274,7 @@ i[class='fa fa-facebook']{
   /* padding: 5rem; */
   padding-bottom: 10px;
  }
-@media screen and (max-width: 1240px){
+@media (200px <= width <= 1240px){
   .main-sect{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -281,6 +282,12 @@ i[class='fa fa-facebook']{
     gap: 2px;
     overflow: hidden;
     padding: 1rem;
+  }
+   li{
+    /* overflow: hidden; */
+    /* display: grid;
+    place-items: center; */
+    margin: auto;
   }
   .app, .dev, .league{
     height: auto;
@@ -303,6 +310,11 @@ i[class='fa fa-facebook']{
   .link-footer, .button {
     display: grid;
     place-items: center;
+  };
+  .foot-btn {
+    display: grid;
+    place-items: center;
+    padding-top: 10px;
   }
 }
 
